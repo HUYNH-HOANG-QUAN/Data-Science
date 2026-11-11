@@ -1,0 +1,2 @@
+Model,Accuracy,Balanced accuracy,ROC AUC,Brier
+Dummy Prior,0.5595238095238095,0.5,0.5,0.24731056282427424

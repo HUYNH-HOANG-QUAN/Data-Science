@@ -1,0 +1,52 @@
+{
+  "data": {
+    "source": "historical_sample",
+    "url": "https://raw.githubusercontent.com/vega/vega-datasets/5448e25297c8f705be78e879d5423d55d04dc6f1/data/sp500-2000.csv",
+    "sha256": "9409e9342d0657c747324e4cfabce8a8c7f663bc485b95a3378f36b0a160f8c8",
+    "first_date": "2000-01-03",
+    "last_date": "2020-04-17",
+    "rows": 5105
+  },
+  "versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "scipy": "1.15.3",
+    "matplotlib": "3.10.1",
+    "seaborn": "0.13.2",
+    "scikit-learn": "1.6.1",
+    "torch": "2.14.1"
+  },
+  "seed": 42,
+  "horizon": 5,
+  "selected_model": "Ridge log",
+  "selected_baseline": "Baseline EWMA",
+  "selected_classifier": "Dummy Prior",
+  "rmse_skill_vs_baseline": -0.03922592308996675,
+  "mae_delta_bootstrap_ci": [
+    -0.01707536872522412,
+    5.240742981356852e-05
+  ],
+  "split": [
+    {
+      "Tập": "Train",
+      "Từ": "2000-04-06",
+      "Đến": "2014-04-02",
+      "Số mẫu": "3518",
+      "Nhãn cuối dùng đến": "2014-04-09"
+    },
+    {
+      "Tập": "Validation",
+      "Từ": "2014-04-10",
+      "Đến": "2017-03-31",
+      "Số mẫu": "750",
+      "Nhãn cuối dùng đến": "2017-04-07"
+    },
+    {
+      "Tập": "Test khóa",
+      "Từ": "2017-04-10",
+      "Đến": "2020-04-09",
+      "Số mẫu": "756",
+      "Nhãn cuối dùng đến": "2020-04-17"
+    }
+  ]
+}

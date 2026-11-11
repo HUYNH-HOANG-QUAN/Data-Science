@@ -1,0 +1,8 @@
+Chủ đề,Bằng chứng,Diễn giải / hành động
+Phạm vi,"2000-01-03 → 2020-04-17; 5,105 phiên; nguồn historical_sample.",Không suy rộng thành nhận định thị trường hiện tại.
+Rủi ro đuôi,Excess kurtosis 11.03; phiên tệ nhất -11.98%.,Giữ dữ liệu cực đoan và đánh giá theo chế độ.
+Drawdown,Mức sụt giảm từ đỉnh lớn nhất -56.78%.,Lợi suất trung bình không mô tả đầy đủ rủi ro nắm giữ.
+Tính dai dẳng,"ACF lag 1 của |r| 0.311, của r -0.115.","Là giả thuyết để kiểm thử, không tự nó chứng minh dự báo tốt."
+Dự báo rủi ro,Ridge log; RMSE skill -3.92%; QLIKE cải thiện 0.0485.,Mô hình không cải thiện đồng thời RMSE và QLIKE trên test; chưa đủ cơ sở thay baseline.
+Độ bất định,"Chênh lệch MAE -0.0086; CI bootstrap [-0.0171, 0.0001].",Khoảng block bootstrap cắt 0: chưa phân biệt rõ chênh lệch MAE với nhiễu lấy mẫu.
+Hướng đi,Dummy Prior; AUC 0.500; Brier cải thiện 0.0000.,Chưa cải thiện Brier so với Dummy Prior.

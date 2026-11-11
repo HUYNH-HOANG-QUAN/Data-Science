@@ -1,0 +1,8 @@
+{
+  "source": "historical_sample",
+  "url": "https://raw.githubusercontent.com/vega/vega-datasets/5448e25297c8f705be78e879d5423d55d04dc6f1/data/sp500-2000.csv",
+  "sha256": "9409e9342d0657c747324e4cfabce8a8c7f663bc485b95a3378f36b0a160f8c8",
+  "first_date": "2000-01-03",
+  "last_date": "2020-04-17",
+  "rows": 5105
+}
